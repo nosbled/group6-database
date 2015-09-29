@@ -1,4 +1,4 @@
-package modell;
+package model;
 
 public class Student {
 private String spnr;

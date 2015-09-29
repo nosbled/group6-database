@@ -1,13 +1,16 @@
 package dal;
-import java.sql.*;
 
-import modell.*;
+import java.sql.*;
+import model.*;
 
 import java.util.ArrayList;
 import java.util.Vector;
 
 import connector.Connector;
-import modell.*;
+import model.Course;
+import model.Student;
+import model.Studied;
+import model.*;
 
 import java.util.Arrays;
 public class Dal {

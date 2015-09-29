@@ -1,11 +1,12 @@
 package controller;
+
 import dal.Dal;
 
 import java.util.ArrayList;
 import java.util.Vector;
 import java.sql.*;
 
-import modell.*;
+import model.*;
 
 public class Controller {
 	private Dal dal;

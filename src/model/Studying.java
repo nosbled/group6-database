@@ -1,14 +1,12 @@
-package modell;
+package model;
 
-public class Studied {
+public class Studying {
 String ccode;
 String spnr;
-String grade;
 
-public Studied (String ccode, String spnr, String grade) {
+public Studying (String ccode, String spnr) {
 	setCcode(ccode);
 	setSpnr(spnr);
-	setGrade(grade);
 }
 
 public String getCcode() {
@@ -22,11 +20,5 @@ public String getSpnr() {
 }
 public void setSpnr(String spnr) {
 	this.spnr = spnr;
-}
-public String getGrade() {
-	return grade;
-}
-public void setGrade(String grade) {
-	this.grade = grade;
 }
 }

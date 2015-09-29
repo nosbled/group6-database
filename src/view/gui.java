@@ -23,7 +23,7 @@ import java.awt.event.ActionEvent;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import modell.*;
+import model.*;
 import connector.*;
 import controller.*;
 
